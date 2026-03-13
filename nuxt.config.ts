@@ -78,6 +78,7 @@ export default defineNuxtConfig({
     runtimeConfig: {
         public: {
             apiBase: process.env.API_BASE_URL || 'http://localhost:8080/api',
+            storageBaseUrl: process.env.STORAGE_BASE_URL || 'https://oryxpay-storage-913447902203.s3.sa-east-1.amazonaws.com',
         },
     },
 

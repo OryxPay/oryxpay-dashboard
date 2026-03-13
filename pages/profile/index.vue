@@ -165,13 +165,13 @@
 
     const getAvatarUrl = (avatarPath: string | null): string | null => {
         if (!avatarPath) return null;
+        const config = useRuntimeConfig();
+        const apiBase = config.public.apiBase;
+        const baseUrl = apiBase.replace('/api', '');
+        const storageBase = String(config.public.storageBaseUrl || '').replace(/\/+$/, '');
 
         // Se já é uma URL completa, verificar se precisa ajustar a porta
         if (avatarPath.startsWith('http://') || avatarPath.startsWith('https://')) {
-            const config = useRuntimeConfig();
-            const apiBase = config.public.apiBase;
-            const baseUrl = apiBase.replace('/api', '');
-
             // Se a URL não contém a porta correta, substituir pela base URL do backend
             try {
                 const url = new URL(avatarPath);
@@ -188,15 +188,18 @@
             return avatarPath;
         }
 
-        // Se é um caminho relativo, construir a URL completa do backend
-        const config = useRuntimeConfig();
-        const apiBase = config.public.apiBase;
-        // Extrair a base URL (remover /api do final)
-        const baseUrl = apiBase.replace('/api', '');
-
         // Se o caminho já começa com /storage, apenas adicionar a base
         if (avatarPath.startsWith('/storage')) {
             return baseUrl + avatarPath;
+        }
+
+        if (avatarPath.startsWith('storage/')) {
+            return baseUrl + '/' + avatarPath;
+        }
+
+        // Produção com S3: avatar vem como "avatars/arquivo.png"
+        if (storageBase) {
+            return storageBase + '/' + avatarPath.replace(/^\/+/, '');
         }
 
         // Caso contrário, adicionar /storage
