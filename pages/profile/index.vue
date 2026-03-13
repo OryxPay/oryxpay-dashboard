@@ -211,7 +211,7 @@
                 form.name = result.data.name || '';
                 form.email = result.data.email || '';
                 form.cpf = result.data.cpf || '';
-                const avatarUrl = getAvatarUrl(result.data.avatar);
+                const avatarUrl = getAvatarUrl((result.data.avatar_url as string | null) || result.data.avatar);
                 userAvatar.value = avatarUrl;
                 form.avatar = avatarUrl;
             }
@@ -293,8 +293,9 @@
                     loading.value = false;
                     return;
                 }
-                if (avatarResult.data?.avatar) {
-                    const avatarUrl = getAvatarUrl(avatarResult.data.avatar);
+                const uploadedAvatar = (avatarResult.data?.avatar_url as string | null) || avatarResult.data?.avatar || null;
+                if (uploadedAvatar) {
+                    const avatarUrl = getAvatarUrl(uploadedAvatar);
                     userAvatar.value = avatarUrl;
                     form.avatar = avatarUrl;
                 }

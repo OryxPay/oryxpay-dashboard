@@ -5,6 +5,8 @@ interface User {
     name: string;
     email: string;
     cpf: string;
+    avatar?: string | null;
+    avatar_url?: string | null;
     created_at: string;
     updated_at: string;
 }

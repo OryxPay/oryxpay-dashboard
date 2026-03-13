@@ -293,7 +293,13 @@
     };
 
     const userAvatar = computed(() => {
-        const avatar = user.value?.avatar || authUser.value?.avatar || null;
+        const localUser = user.value as any;
+        const avatar =
+            localUser?.avatar_url ||
+            localUser?.avatar ||
+            authUser.value?.avatar_url ||
+            authUser.value?.avatar ||
+            null;
         return getAvatarUrl(avatar);
     });
 
