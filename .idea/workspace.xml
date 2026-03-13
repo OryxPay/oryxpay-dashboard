@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3f8a895-1571-4d32-83b9-fc4229c3efb9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/auth/register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/icon/menu/icon-menu-dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/icon/menu/icon-menu-dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/apps/chat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/apps/chat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/cover-login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/cover-register.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="31kGU8tTIlNJEtn2C7bVWIBJtr1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/adding-auth-pages&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/igor/projects/me/patrimonio_plus_front/components/icon/menu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/igor/projects/me/patrimonio_plus_front/node_modules/prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/igor/projects/me/patrimonio_plus_front/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/icon/menu" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3f8a895-1571-4d32-83b9-fc4229c3efb9" name="Changes" comment="" />
+      <created>1756060672838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756060672838</updated>
+      <workItem from="1756060674268" duration="67000" />
+      <workItem from="1756060747927" duration="818000" />
+      <workItem from="1756125337701" duration="460000" />
+      <workItem from="1756157854900" duration="7082000" />
+      <workItem from="1756236136503" duration="12000" />
+      <workItem from="1756245095293" duration="3711000" />
+      <workItem from="1756336455219" duration="2109000" />
+      <workItem from="1756997110628" duration="9000" />
+      <workItem from="1757083637778" duration="6000" />
+      <workItem from="1757432807542" duration="9000" />
+      <workItem from="1757433177744" duration="2000" />
+      <workItem from="1757530367690" duration="4000" />
+      <workItem from="1757532582335" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,75 @@
+.custom-multiselect.multiselect {
+    @apply !text-inherit !min-h-max;
+}
+
+.custom-multiselect.multiselect,
+.custom-multiselect .multiselect__input,
+.custom-multiselect .multiselect__single {
+    @apply !text-sm;
+}
+
+.custom-multiselect.multiselect .multiselect__tags {
+    @apply ltr:pl-4.5 rtl:pr-4.5 !py-2  !min-h-max;
+}
+
+.custom-multiselect.multiselect .multiselect__tags,
+.custom-multiselect .multiselect__content-wrapper,
+.custom-multiselect .multiselect--above .multiselect__content-wrapper {
+    @apply bg-white dark:bg-[#1b2e4b] border-[rgb(224,230,237)] dark:border-[#253b5c];
+}
+
+.custom-multiselect .multiselect__single,
+.custom-multiselect .multiselect__placeholder,
+.custom-multiselect .multiselect__input {
+    @apply !mb-0 !pl-0 dark:bg-[#1b2e4b];
+}
+
+.custom-multiselect .multiselect__option--highlight,
+.custom-multiselect .multiselect__option--selected.multiselect__option--highlight,
+.custom-multiselect .multiselect__option.multiselect__option--selected {
+    @apply !bg-[#f6f6f6] dark:!bg-[#132136] !text-inherit;
+}
+
+.custom-multiselect .multiselect__option.multiselect__option--disabled {
+    @apply !bg-transparent !text-[#999];
+}
+
+.custom-multiselect.multiselect--active .multiselect__placeholder {
+    @apply !inline-block;
+}
+
+.custom-multiselect .multiselect__placeholder {
+    @apply !pt-0 text-black dark:text-white-dark;
+}
+
+.custom-multiselect .multiselect__tag {
+    @apply !mb-0 !py-[3px] !bg-success;
+}
+
+.custom-multiselect .multiselect__tags-wrap {
+    @apply !flex;
+}
+
+.custom-multiselect .multiselect__tag-icon {
+    @apply !top-auto;
+}
+
+/* Select model (selectize / nice-select visual) */
+select.selectize {
+    @apply form-select relative cursor-pointer rounded-md border-[#e0e6ed] bg-white pr-10 text-sm text-[#0e1726] outline-none transition;
+    background-image:
+        linear-gradient(45deg, transparent 50%, #6b7280 50%),
+        linear-gradient(135deg, #6b7280 50%, transparent 50%);
+    background-position:
+        calc(100% - 16px) calc(50% - 2px),
+        calc(100% - 11px) calc(50% - 2px);
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+}
+
+.dark select.selectize {
+    @apply border-[#253b5c] bg-[#1b2e4b] text-white-light;
+    background-image:
+        linear-gradient(45deg, transparent 50%, #94a3b8 50%),
+        linear-gradient(135deg, #94a3b8 50%, transparent 50%);
+}
